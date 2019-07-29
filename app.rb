@@ -8,12 +8,12 @@ class App < Sinatra::Base
 		erb :hello
 	end
 
-  get '/' do
-		erb :index
+  get '/goodbye' do
+		erb :goodbye
 	end
 
-  get '/' do
-		erb :index
+  get '/date' do
+		erb :date
 	end
 
 end
